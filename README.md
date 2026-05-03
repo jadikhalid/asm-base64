@@ -8,7 +8,7 @@ Un utilitaire de ligne de commande (CLI) robuste et performant pour l'encodage e
 
 ## 🚀 Pourquoi ce projet ?
 
-Ce projet démontre une maîtrise de l'architecture logicielle de bas niveau. Contrairement aux utilitaires standards, **ASM64** n'utilise aucune bibliothèque externe (pas même la `libc`). Il communique directement avec le noyau via des appels système (syscalls).
+Contrairement aux utilitaires standards, **ASM64** n'utilise aucune bibliothèque externe (pas même la `libc`). Il communique directement avec le noyau via des appels système (syscalls). Le rendu est plus rapide et plus performant.
 
 ### Points forts techniques :
 
