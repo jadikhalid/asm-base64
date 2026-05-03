@@ -1,3 +1,19 @@
+# Exécutable et objets
 asm64
 *.o
+
+# Fichiers temporaires et logs
 *.tmp
+*.log
+
+# Docker (si tu génères des fichiers locaux)
+.dockerignore
+
+# Dossiers d'IDE ou d'OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Fichiers de sortie de tests (si applicable)
+test_output/
